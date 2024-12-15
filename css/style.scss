@@ -1,0 +1,31 @@
+@import 'site-base';
+
+/*Circles section css start here */
+.circles{
+    position: absolute;
+    top:-480px;
+    left: 489px;
+   z-index: -1;
+   .circle-1 .circle-2 .circle-3{
+    position: absolute;
+    display: inline-block;
+    width: 960px;
+    height: 960px;
+    border: 1px solid blue;
+    border-radius: 100%;
+   }
+   .circle-1{
+    top:120px;
+    left: 20px;
+   }
+   .circle-2{
+    top:-50px;
+    left: -50px;
+   }
+   .circle-3{
+    top: 50px;
+    left: 50px;
+   }
+}
+
+/*Circles section css end here */
